@@ -63,14 +63,6 @@ namespace NeoQuant{
         state = gates.applyHadamard(state);
         
 
-        // MEASURE ; 
-
-        // measuring ... I think we know what to do 
-
-        // you do not need to make an N diemnsional tuple. all you need to do is make a tuple for an N dimensional std::vector for a result space. no tuple necessary bro.
-
-        // generate all possible combs for N = 2 , {0, 1} , create this to prob , pput this into RNG and we win .
-
         // Final NUMERICAL, not quantum, state. 
         Measure measure(state);
 
