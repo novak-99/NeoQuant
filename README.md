@@ -1,2 +1,2 @@
 # NeoQuant
-Brining quantum computing to C++!
+Bringing quantum computing to C++!
